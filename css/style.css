@@ -1,0 +1,19 @@
+html,body,header, #intro{
+    height: 100%;
+}
+
+#intro{
+    background: url(../img/pexels-pixabay-270348.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse{
+    background-color: rgb(7, 4, 26);
+}
+
+@media (max-width: 768px){
+    .navbar:not(.top-nav-collapse){
+        background: rgb(7, 4, 26);
+    }
+}
